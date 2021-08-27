@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+  box-sizing:border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 235, 197);
+  font-family: Lato, sans-serif;
+}
+
+.card {
+  width: 450px;
+  height: 225px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
